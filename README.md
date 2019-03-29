@@ -6,6 +6,8 @@ There are detailed jupyter notebooks in the `notebook` folder. Just look up for 
 
 Check out my blog post on __State of the Art methods to train Neural Networks in 2019__. It will give you an idea and required references on why these methods are important. (Note:- I will update this with a link, blog post is still in draft. Will be posted by this week)
 
+__Note__:- I did everything on CPU, so if you want to move to GPU, you can make approprate changes by using `to(device)`. I did not introduce a GPU flag, as the code would become bigger and the main aim of fwf is to provide a guide on how to use these methods in your workflow.
+
 ## Some Notation
 * In the notebooks, there will be code blocks like
     ```python
