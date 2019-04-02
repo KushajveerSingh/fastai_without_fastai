@@ -115,8 +115,7 @@ class SmoothenValue():
         self.mov_avg = self.beta * self.mov_avg + (1 - self.beta) * val
         self.smooth = self.mov_avg / (1 - self.beta ** self.n)
 
-# TO BE MODIFIED
-# But look on how it works.
+# TO BE MODIFIED IN SOME CASES
 def lr_find(data_loader, model, loss_fn, opt, wd:int=0, start_lr:float=1e-7, end_lr:float=10, 
             num_it:int=100, stop_div:bool=True, smooth_beta:float=0.98, use_gpu:bool=True, 
             device=torch.device('cuda'), anneal_func=annealing_exp):
@@ -140,7 +139,8 @@ def lr_find(data_loader, model, loss_fn, opt, wd:int=0, start_lr:float=1e-7, end
         anneal_func :- The step function you want to use (default exp)
         device :- Torch device to use for training model (default GPU)
     Returns:
-
+        losses :- list of smoothened version of losses
+        lrs :- list of all lrs that we test
     """
     model.train()
 
