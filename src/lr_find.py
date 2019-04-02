@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 # NOT -> plot_lr_find
 
 # NOT TO BE MODIFIED
-# To be used in lr_range (Extra function)
 class ParameterModule(nn.Module):
     "Register a lone parameter 'p' in a module"
     def __init__(self, p:nn.Parameter):
