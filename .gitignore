@@ -1,3 +1,8 @@
+# My files
+notebooks/learning_rate.ipynb
+notebooks/using_fastai.ipynb
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
