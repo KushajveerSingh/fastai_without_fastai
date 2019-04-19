@@ -1,3 +1,5 @@
+I made this repo as a leanring experience for myself, so I could bettter understand fasta source code. I have done that, so I am archiving this repo. Although, I did not push all my changes to the repo, as my leanring continued I learnt that the functions that fastai are necessary for ease.
+
 # fastai_without_fastai (fwf)
 
 fwf is not made with the goal of creating a library from where you can import functions, for that you have [fastai](https://docs.fast.ai/). The motivation behind this project is to make the useful functions of fastai in PyTorch like lr_find, fit_one_cycle available. 
