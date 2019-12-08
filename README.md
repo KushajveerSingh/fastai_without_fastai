@@ -73,7 +73,7 @@ Ideally, I wrote the .py scripts such that if you want to understand all the und
 
 ## Blog 
 
-I am writing a blog series on __State of the Art Methods to train Nerual Networks in 2019__. I will give all the Leslie N. Smith's techniques along with Jeremy Howard's techniques for training neural networks. (Note:- I will update this with a link, blog post is still in draft. Will be posted by this week)
+I have a written a blog post summarizing the latest techniques used to train neural networks. The research is proposed by Leslie N. Smith and is one of the main training techniques used in fastai. I have summarized the 4 research papers in this notebook, [**Reproducing Leslie N. Smith's papers using fastai**](https://nbviewer.jupyter.org/github/KushajveerSingh/Deep-Learning-Notebooks/blob/master/Leslie%20N.%20Smith%20paper%20notebooks%20%28fastai%29/main.ipynb#Reproducing-Leslie-N.-Smith's-papers-using-fastai)
 
 # Issues
 
